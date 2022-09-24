@@ -1,0 +1,38 @@
+---
+title: "First session: 2022-09-23"
+description: "On the first session we talked about R Projects, Quarto and integrating citations from Zotero"
+author: "Mariana Montes"
+date: "2022-09-24"
+categories:
+  - session
+  - quarto
+  - citations
+---
+
+In the first session of the Digital Skills Space we talked about:
+
+- Using R projects (why, how?)
+
+- Using Quarto (or R Markdown)
+
+- Integrating Quarto/RMarkdown with Zotero
+
+## R projects
+
+Have you ever used R Projects?
+
+Most of us learn to use R by clicking on an R file (often a script someone else gave us) and letting RStudio open it, or by opening R Studio and just typing it. The working directory will then be the folder where that R file lives. If we want to work on different things at the same time, we'll have those scripts open simultaneously and they will mingle: the console will be the same, the environment (loaded libraries and variables, functions...) will be the same... that can be very confusing and will certainly mess with the reproducibility of your code.
+
+An R Project is a feature of RStudio that helps you keep your code [organized in projects](https://www.tidyverse.org/blog/2017/12/workflow-vs-script/). You can open them separately in multiple sessions and manage them with ease, keeping unrelated code and data apart. Moreover, you can get help from packages such as [{here}](https://here.r-lib.org/), [{targets}](https://docs.ropensci.org/targets/) and [{renv}](https://rstudio.github.io/renv/articles/renv.html) (see for example [my blogpost on this](https://www.marianamontes.me/post/a-project-from-scratch/)).
+
+Try working with R Projects, your R experience will be totally different (for the best)!
+
+## Quarto
+
+[Quarto](https://quarto.org/) is a pumped-up version of R Markdown: if you know R Markdown, it will be easy to try out; if you don't, I would suggest you go to Quarto directly. Many features that require combinations of {rmarkdown} and other packages are fully covered by Quarto. Moreover, it does not depend on R; you can also use it with Python, Julia or no code at all!
+
+Installing Quarto is quite straightforward; then R Studio identifies it and offers you the option of creating Quarto documents, with a simple template you can render immediately.
+
+## Integrating Quarto/RMarkdown with Zotero
+
+The markup language in Quarto and RMarkdown (markdown) makes it very easy to cite sources, and the compilation takes care of generating the reference list at the end of your document. However, it might be difficult to remember the citation keys of each source you want to cite. For that purpose, the [{rbbt}](https://github.com/paleolimbot/rbbt) package offers you a connection between R and [Better Bibtex for Zotero](https://retorque.re/zotero-better-bibtex/), letting you choose your sources from a pop-up window and automatically updating your .bib file.
