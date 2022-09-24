@@ -1,1 +1,1 @@
-Sitemap: https://montesmariana.github.io/digiskills/sitemap.xml
+Sitemap: https://github.com/montesmariana/digiskills/sitemap.xml
