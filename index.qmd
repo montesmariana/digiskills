@@ -1,0 +1,21 @@
+---
+title: "Digital Skills Space"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+page-layout: full
+title-block-banner: true
+---
+
+This is the blog of the Digital Skills Space, a space to train our digital skills.
+
+:::{.callout-important}
+On Friday 30th of September, exceptionally, it will take place from 11:00 to 12:00.
+:::
+
+This site will collect news and some notes on what we talk about in different sessions.
+
+<hr>
+

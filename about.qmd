@@ -1,0 +1,15 @@
+---
+title: "Digital Skills Space"
+image: poster-small.png
+about:
+  template: trestles
+---
+
+The Digital Skills Space is a regular space to learn, practice and share tips to work with digital data and enhance reproducible research.
+
+The idea is to carve out a space in our schedules for investing in our digital skills, from managing and processing our data, to exploring it with tables and plots, to reporting it in a reliable and reproducible way. These are tasks that often take a lot of time and bring deep frustration, because we are either not trained at it or the only training we received is abstract and applied to fictitious and/or unrelatable examples. However, well acquired skills can save us a lot of time and effort, so that we can better focus our energies on content and analysis. This is what this space is for.
+
+It is organized within the Linguistics Department of the Faculty of Arts, KU Leuven. It takes place **every Friday from 11:00 to 13:00**.
+
+For any questions, please contact [Mariana Montes](mailto:mariana.montes@kuleuven.be).
+
