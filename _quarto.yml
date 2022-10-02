@@ -9,10 +9,13 @@ website:
         text: Home
       - href: about.qmd
         text: About
+  page-navigation: true
 
 format:
   html:
-    theme: flatly
+    theme:
+      - flatly
+      - custom.scss
     css: styles.css
     toc: true
 

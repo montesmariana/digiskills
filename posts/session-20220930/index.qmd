@@ -1,0 +1,37 @@
+---
+title: "Second session: 2022-09-30"
+description: "On the second session we talked about Quarto and citing R packages."
+author: "Mariana Montes"
+date: "2022-10-02"
+categories:
+  - session
+  - quarto
+  - citations
+  - git(hub)
+---
+
+In the second session of the Digital Skills Space we talked about:
+
+- Using Quarto (not just R!)
+
+- Citing R packages when writing with Quarto or R Markdown
+
+## Quarto
+
+Since most of the people in the second session were not present during the first session, we discussed [Quarto](https://quarto.org/) again. We talked about how, if you know R Markdown, it will be easy to try out; if you don't, it might be best go to Quarto directly. Many features that require combinations of {rmarkdown} and other packages are fully covered by Quarto. 
+
+We also saw an example of a Quarto presentation written in VS Code and using no computations! It did have a mermaid graph :)
+
+# Citing R packages
+
+R has a function, `citation()`, that lets you obtain the citation information of an R package. We also saw how to use [`knitr::write_bib()`](https://bookdown.org/yihui/rmarkdown-cookbook/write-bib.html) to generate a Bibtex file with the citations from a selection of packages (or, by default, the loaded packages!). It even creates handy default citation keys of the form "R-{packageName}".
+
+# Other things that came up
+
+In more one-on-one discussions, other tools came up:
+
+- Using the [googlesheets4](https://googlesheets4.tidyverse.org/) package to load Google Sheets into R.
+
+- Using tidy dataframes: one row is an observation, one column is a variable!
+
+- If you make changes in your remote GitHub repository, you have to pull them before applying changes in your local version (ideally, before changing anything), or you won't be able to push them!

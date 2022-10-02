@@ -1,6 +1,6 @@
 ---
 title: "First session: 2022-09-23"
-description: "On the first session we talked about R Projects, Quarto and integrating citations from Zotero"
+description: "On the first session we talked about R Projects, Quarto and integrating citations from Zotero."
 author: "Mariana Montes"
 date: "2022-09-24"
 categories:
