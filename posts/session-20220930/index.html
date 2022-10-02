@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Mariana Montes">
-<meta name="dcterms.date" content="2022-09-24">
-<meta name="description" content="On the first session we talked about R Projects, Quarto and integrating citations from Zotero.">
+<meta name="dcterms.date" content="2022-10-02">
+<meta name="description" content="On the second session we talked about Quarto and citing R packages.">
 
-<title>digiskills - First session: 2022-09-23</title>
+<title>digiskills - Second session: 2022-09-30</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -103,9 +103,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#r-projects" id="toc-r-projects" class="nav-link active" data-scroll-target="#r-projects">R projects</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
-  <li><a href="#integrating-quartormarkdown-with-zotero" id="toc-integrating-quartormarkdown-with-zotero" class="nav-link" data-scroll-target="#integrating-quartormarkdown-with-zotero">Integrating Quarto/RMarkdown with Zotero</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link active" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#citing-r-packages" id="toc-citing-r-packages" class="nav-link" data-scroll-target="#citing-r-packages">Citing R packages</a></li>
+  <li><a href="#other-things-that-came-up" id="toc-other-things-that-came-up" class="nav-link" data-scroll-target="#other-things-that-came-up">Other things that came up</a></li>
   </ul>
 </nav>
     </div>
@@ -114,17 +114,18 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">First session: 2022-09-23</h1>
+<h1 class="title">Second session: 2022-09-30</h1>
   <div class="quarto-categories">
     <div class="quarto-category">session</div>
     <div class="quarto-category">quarto</div>
     <div class="quarto-category">citations</div>
+    <div class="quarto-category">git(hub)</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    On the first session we talked about R Projects, Quarto and integrating citations from Zotero.
+    On the second session we talked about Quarto and citing R packages.
   </div>
 </div>
 
@@ -141,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 24, 2022</p>
+      <p class="date">October 2, 2022</p>
     </div>
   </div>
     
@@ -150,27 +151,28 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>In the first session of the Digital Skills Space we talked about:</p>
+<p>In the second session of the Digital Skills Space we talked about:</p>
 <ul>
-<li><p>Using R projects (why, how?)</p></li>
-<li><p>Using Quarto (or R Markdown)</p></li>
-<li><p>Integrating Quarto/RMarkdown with Zotero</p></li>
+<li><p>Using Quarto (not just R!)</p></li>
+<li><p>Citing R packages when writing with Quarto or R Markdown</p></li>
 </ul>
-<section id="r-projects" class="level2">
-<h2 class="anchored" data-anchor-id="r-projects">R projects</h2>
-<p>Have you ever used R Projects?</p>
-<p>Most of us learn to use R by clicking on an R file (often a script someone else gave us) and letting RStudio open it, or by opening R Studio and just typing it. The working directory will then be the folder where that R file lives. If we want to work on different things at the same time, we’ll have those scripts open simultaneously and they will mingle: the console will be the same, the environment (loaded libraries and variables, functions…) will be the same… that can be very confusing and will certainly mess with the reproducibility of your code.</p>
-<p>An R Project is a feature of RStudio that helps you keep your code <a href="https://www.tidyverse.org/blog/2017/12/workflow-vs-script/">organized in projects</a>. You can open them separately in multiple sessions and manage them with ease, keeping unrelated code and data apart. Moreover, you can get help from packages such as <a href="https://here.r-lib.org/">{here}</a>, <a href="https://docs.ropensci.org/targets/">{targets}</a> and <a href="https://rstudio.github.io/renv/articles/renv.html">{renv}</a> (see for example <a href="https://www.marianamontes.me/post/a-project-from-scratch/">my blogpost on this</a>).</p>
-<p>Try working with R Projects, your R experience will be totally different (for the best)!</p>
-</section>
 <section id="quarto" class="level2">
 <h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-<p><a href="https://quarto.org/">Quarto</a> is a pumped-up version of R Markdown: if you know R Markdown, it will be easy to try out; if you don’t, I would suggest you go to Quarto directly. Many features that require combinations of {rmarkdown} and other packages are fully covered by Quarto. Moreover, it does not depend on R; you can also use it with Python, Julia or no code at all!</p>
-<p>Installing Quarto is quite straightforward; then R Studio identifies it and offers you the option of creating Quarto documents, with a simple template you can render immediately.</p>
+<p>Since most of the people in the second session were not present during the first session, we discussed <a href="https://quarto.org/">Quarto</a> again. We talked about how, if you know R Markdown, it will be easy to try out; if you don’t, it might be best go to Quarto directly. Many features that require combinations of {rmarkdown} and other packages are fully covered by Quarto.</p>
+<p>We also saw an example of a Quarto presentation written in VS Code and using no computations! It did have a mermaid graph :)</p>
 </section>
-<section id="integrating-quartormarkdown-with-zotero" class="level2">
-<h2 class="anchored" data-anchor-id="integrating-quartormarkdown-with-zotero">Integrating Quarto/RMarkdown with Zotero</h2>
-<p>The markup language in Quarto and RMarkdown (markdown) makes it very easy to cite sources, and the compilation takes care of generating the reference list at the end of your document. However, it might be difficult to remember the citation keys of each source you want to cite. For that purpose, the <a href="https://github.com/paleolimbot/rbbt">{rbbt}</a> package offers you a connection between R and <a href="https://retorque.re/zotero-better-bibtex/">Better Bibtex for Zotero</a>, letting you choose your sources from a pop-up window and automatically updating your .bib file.</p>
+<section id="citing-r-packages" class="level1">
+<h1>Citing R packages</h1>
+<p>R has a function, <code>citation()</code>, that lets you obtain the citation information of an R package. We also saw how to use <a href="https://bookdown.org/yihui/rmarkdown-cookbook/write-bib.html"><code>knitr::write_bib()</code></a> to generate a Bibtex file with the citations from a selection of packages (or, by default, the loaded packages!). It even creates handy default citation keys of the form “R-{packageName}”.</p>
+</section>
+<section id="other-things-that-came-up" class="level1">
+<h1>Other things that came up</h1>
+<p>In more one-on-one discussions, other tools came up:</p>
+<ul>
+<li><p>Using the <a href="https://googlesheets4.tidyverse.org/">googlesheets4</a> package to load Google Sheets into R.</p></li>
+<li><p>Using tidy dataframes: one row is an observation, one column is a variable!</p></li>
+<li><p>If you make changes in your remote GitHub repository, you have to pull them before applying changes in your local version (ideally, before changing anything), or you won’t be able to push them!</p></li>
+</ul>
 
 
 </section>
