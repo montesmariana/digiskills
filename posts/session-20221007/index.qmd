@@ -1,0 +1,17 @@
+---
+title: "Third session: 2022-10-07"
+description: "On the third session we talked about R Projects, Git and Python virtual environments."
+author: "Mariana Montes"
+date: "2022-10-07"
+categories:
+  - session
+  - r
+  - python
+  - git
+---
+
+In this third session there was not really a common ground between all participants, so we had on one hand some R+Git practice and some discussion on Python virtual environments.
+
+The R+Git section was related to the [Master in Corpus Linguistics course](https://mclm2022.github.io), particularly the Git workflow setting up a project. We also debugged a situation when trying to install R packages that required us to go and remove some temporary files inside of "AppData/Temp"!
+
+In Python, we talked about using virtual environments (particularly `venv`) to keep libraries in one project from affecting libraries on the other. We looked into VS Code features when working with Python and environments, using its terminal and differences between the Command Prompt and the PowerShell in Windows.
