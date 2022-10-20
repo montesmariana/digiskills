@@ -2,7 +2,7 @@
 title: "Fourth session: 2022-10-14"
 description: "On the fourth session we talked about plot texts in ggplot and turning R projects into git repositories."
 author: "Mariana Montes"
-date: "2022-10-07"
+date: "2022-10-14"
 categories:
   - session
   - visualization
